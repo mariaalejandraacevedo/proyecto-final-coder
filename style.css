@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+    
+}
+.red{
+    color: red;
+}
+
+.rose{
+    color:crimson; 
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    display: inline;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+h2{
+    font-size: 22px;
+}
+h4{
+    font-size: 20px;
+    font-style: oblique;
+}
+h2 {
+    height: auto;
+    background-color: lightcoral;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 30px;
+}
+h4 {
+    margin: 40px;
+    padding: 0,50px;
+    background-color: whitesmoke;
+}
+.bordesimag {
+    border: 3px solid black;
+    margin-left: 100px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+.logoimag {
+    border: 1px solid palevioletred;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+}
+.velas {
+    display: flex;
+    align-items: flex-end;
+}
+.muebles{
+    display: flex;
+    align-items: flex-end;
+}
+.flores {
+    display: flex;
+    align-items: flex-end;
+}
+.difusor {
+    display: flex;
+    align-items: flex-end;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr; 
+    grid-gap: 10px; 
+}
+.encabezado {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.pie {
+    display: grid;
+    grid-area: footer;
+}
+
+@media screen and (max-width:500px) {
+    .principal{
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+    }
+    
+    .contenedor{
+    flex-wrap: wrap;
+    }
+}
