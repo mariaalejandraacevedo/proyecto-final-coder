@@ -21,3 +21,7 @@ form {
 form button {
     margin-top: 25px;
 }
+
+nav ul li a {
+    text-decoration: none;
+}
