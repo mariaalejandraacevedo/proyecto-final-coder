@@ -70,8 +70,8 @@ h4 {
     border: 1px solid palevioletred;
     margin-left: 25px;
     margin-top: 20px;
-    width: 550px;
-    height: 300px;
+    width: 850px;
+    height: 390px;
     object-fit: cover;
 }
 .velas {
@@ -109,6 +109,9 @@ h4 {
 .pie {
     display: grid;
     grid-area: footer;
+}
+.ubicacion{
+   margin-left: 400px;
 }
 
 @media screen and (max-width:500px) {
