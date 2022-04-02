@@ -52,7 +52,7 @@ body{
     width: 100%;
 }
 .red{
-    color: red;
+    color: rgb(99, 95, 95);
 }
 
 .rose{
@@ -134,6 +134,7 @@ h4 {
     display: grid;
     grid-area: footer;
 }
+
 .ubicacion{
    margin-left: 400px;
 }

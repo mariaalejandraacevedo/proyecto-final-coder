@@ -5,6 +5,7 @@
 
 .redessociales {
     width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +25,8 @@ form button {
 
 nav ul li a {
     text-decoration: none;
+}
+
+main {
+    background-color: bisque;
 }
