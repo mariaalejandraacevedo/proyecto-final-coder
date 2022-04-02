@@ -1,0 +1,23 @@
+.redsocial {
+    height: 70px;
+    height: 70px;
+}
+
+.redessociales {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+form button {
+    margin-top: 25px;
+}
