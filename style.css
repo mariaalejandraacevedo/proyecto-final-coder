@@ -8,6 +8,35 @@
     list-style: none;
 }
 
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+header #logoheader {
+    height: 100px;
+    object-fit: contain;
+    width: auto;
+}
+
+header nav ul {
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: rgb(181, 80, 101);
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: bisque;
@@ -18,7 +47,7 @@ body{
 }
 
 .rose{
-    color:crimson; 
+    color:rgb(181, 80, 101); 
 }
 ul {
     list-style: none;
