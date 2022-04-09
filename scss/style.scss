@@ -5,6 +5,8 @@ $gris: rgb(19, 18, 18);
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import "./partials/header";
+
 @keyframes aparecer {
     0% {
         opacity: 0;
@@ -22,32 +24,7 @@ $gris: rgb(19, 18, 18);
     list-style: none;
 }
 
-header {
-    height: 50px;
-    width: 100%;
-    background-color: $primario-color;
-    display: flex;
 
-    nav {
-        ul {
-            height: 100%;
-            align-items: center;
-            list-style: none;
-            display: flex;
-        }
-
-        li {
-            a {
-                color: $secondario-color;
-                font-size: 18px;
-
-                &:hover {
-                    color: rgb(181, 80, 101);
-                }
-            }
-        }
-    }
-}  
 
 body{
     font-family: 'Roboto', sans-serif;
