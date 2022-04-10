@@ -28,6 +28,15 @@ header nav li a:hover {
   color: #b55065;
 }
 
+.listadogaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 50px;
+}
+
 @-webkit-keyframes aparecer {
   0% {
     opacity: 0;
@@ -96,16 +105,13 @@ p {
   margin-right: 20px;
 }
 
-h2 {
-  font-size: 22px;
-}
-
 h4 {
   font-size: 20px;
   font-style: oblique;
 }
 
 h2 {
+  font-size: 22px;
   height: auto;
   background-color: lightcoral;
   border: 2px solid black;
@@ -248,15 +254,6 @@ form button {
 
 .elementogaleria {
   width: 50%;
-}
-
-.listadogaleria {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-left: 50px;
 }
 
 @media (max-width: 800px) {
