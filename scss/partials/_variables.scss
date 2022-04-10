@@ -1,0 +1,5 @@
+@mixin propiedades ($display, $izquierdo) {
+    display: $display;
+    justify-content: $izquierdo;
+    
+}

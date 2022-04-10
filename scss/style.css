@@ -98,7 +98,8 @@ a {
 }
 
 p {
-  font-style: map-get ($display, style);
+  background-color: black;
+  font-style: italic;
   font-weight: bold;
   font-size: 16px;
   margin-left: 30px;
@@ -115,7 +116,8 @@ h2 {
 }
 
 h4 {
-  font-size: map-get ($display, tamaño fuente);
+  font-size: 22px;
+  font-style: italic;
   margin: 40px;
   padding: 0,50px;
   background-color: whitesmoke;
@@ -192,6 +194,12 @@ footer {
 
 footer p {
   color: #131212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 @media screen and (max-width: 500px) {
