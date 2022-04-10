@@ -98,16 +98,11 @@ a {
 }
 
 p {
-  font-style: italic;
+  font-style: map-get ($display, style);
   font-weight: bold;
   font-size: 16px;
   margin-left: 30px;
   margin-right: 20px;
-}
-
-h4 {
-  font-size: 20px;
-  font-style: oblique;
 }
 
 h2 {
@@ -120,6 +115,7 @@ h2 {
 }
 
 h4 {
+  font-size: map-get ($display, tamaño fuente);
   margin: 40px;
   padding: 0,50px;
   background-color: whitesmoke;
